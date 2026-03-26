@@ -14,7 +14,7 @@
 
 ----
 ## 2. System Context Diagram
-![다이어그램](../images/diagram.png)
+![다이어그램](https://github.com/Lee-Hwayoon/-OSSDesign-Project/blob/main/images/diagram.png?raw=true)
 <br><br>
 
 ----
