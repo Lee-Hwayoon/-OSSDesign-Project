@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>북마크 아카이브</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h3>북마크 추가</h3>
+        <div class="input-group">
+            <input type="text" id="titleInput" placeholder="북마크 제목을 입력하세요">
+        </div>
+        <div class="input-group">
+            <input type="text" id="urlInput" placeholder="URL을 입력하세요 (https://...)">
+        </div>
+        <div class="error-msg" id="errorDisplay"></div>
+        <button id="saveBtn">저장하기</button>
+    </div>
+
+    <div class="card">
+        <h3>북마크 목록</h3>
+        <div class="loading" id="loadingDisplay">데이터 처리 중...</div>
+        <ul id="bookmarkList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
